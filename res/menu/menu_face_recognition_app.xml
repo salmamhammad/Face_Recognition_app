@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FaceRecognitionAppActivity" >
+
+
+    <item
+        android:id="@+id/delete"
+        android:title="@string/flip"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:title="@string/flip"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/flip_camera"
+        android:title="@string/flip"
+        android:icon="@drawable/ic_party_mode_black_24dp"
+        app:showAsAction="always" />
+
+</menu>
